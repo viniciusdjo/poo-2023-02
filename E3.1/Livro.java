@@ -4,6 +4,12 @@ public class Livro{
     private int ano;
     private String editora;
 
+    public Livro(String titulo, String autor, int ano, String editora){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.ano = ano;
+        this.editora = editora;
+    }
 
 public String getTitulo(){
     return titulo;
@@ -38,6 +44,6 @@ public void setEditora(String editora){
 }
 
 public String toString(){
-    return "Título: " + titulo + "\nAutor: " + autor + "\nAno: " + ano + "\nEditora: " + editora;
+    return "\nTítulo: " + titulo + "\nAutor: " + autor + "\nAno: " + ano + "\nEditora: " + editora;
 }
 }
