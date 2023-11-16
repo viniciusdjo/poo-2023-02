@@ -11,8 +11,6 @@ public class Calculadora extends JFrame {
         frame.setSize(450, 250);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        ImageIcon imagemTituloJanela = new ImageIcon("biel.png"); 
-        frame.setIconImage(imagemTituloJanela.getImage());
 
         JPanel panel = new JPanel();
         frame.add(panel);
